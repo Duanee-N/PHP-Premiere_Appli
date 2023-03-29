@@ -1,0 +1,245 @@
+/* ***************GENERAL*************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: rgb(54, 154, 213);
+    text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, 1px 1px 10px #141414;
+} 
+
+a{
+    color: rgb(54, 154, 213);
+}
+
+a:hover{
+    color: white;
+    text-shadow: -1px -1px 0 #369ad5,  1px -1px 0 #369ad5, -1px 1px 0 #369ad5, 1px 1px 0 #369ad5;
+}
+
+input{
+    text-align: center;
+    padding: 3px;
+}
+
+p{
+    width: 100%;
+    height: 100%; 
+}
+
+label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* ***************BODY*************** */
+#nav-content{
+    width: 61%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: rgb(54, 154, 213);
+    text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 15px;
+    color: rgb(54, 154, 213);
+    text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#panierVide{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #369ad5,  1px -1px 0 #369ad5, -1px 1px 0 #369ad5, 1px 1px 0 #369ad5;
+}
+
+.txt{
+    color: white;
+    text-shadow: -1px -1px 0 #369ad5,  1px -1px 0 #369ad5, -1px 1px 0 #369ad5, 1px 1px 0 #369ad5;
+    text-align: center;
+}
+
+#msg{
+    color: white;
+    text-shadow: -1px -1px 0 #369ad5,  1px -1px 0 #369ad5, -1px 1px 0 #369ad5, 1px 1px 0 #369ad5;
+    text-align: center;
+}
+
+#container{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#boxSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align: center;
+    /* width: 300px;
+    height: 300px; */
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(to bottom right, rgb(54, 154, 213, 0.775), rgb(245, 88, 78, 0.775), rgba(255, 212, 94, 0.775));
+}
+
+.input{
+    /* width: 250px; */
+    width: 200px;
+}
+
+#img-box{
+    /* padding-left: 35px; */
+    width: 120px;
+}
+
+#description-box{
+    overflow: hidden;
+}
+
+#area{
+    /* max-width: 250px;
+    max-height: 200px; */
+    max-width: 200px;
+    max-height: 150px;
+}
+
+
+#submitBtn{
+    display: flex;
+}
+
+button a{
+    color: white;
+}
+
+button:hover a{
+    color: rgb(54, 154, 213);
+    text-shadow: none;
+}
+
+.button{
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: rgb(54, 154, 213, 0.775);
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.button:hover{
+    text-shadow: none;
+    background-color: rgb(255, 255, 255, 0.775);
+    color: rgb(54, 154, 213);
+    cursor: pointer;
+}
+
+#recapTable{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr, th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: rgba(54, 155, 213, 0.512);
+    color: rgb(54, 154, 213);
+    text-shadow: -1px -1px 0 white,  1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+td{
+    background-color: rgba(255, 255, 255, 0.512);
+}
+
+#blue{
+    color: rgb(54, 154, 213);
+}
+
+.qte{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.totalGeneral{
+    color: white;
+    text-shadow: -1px -1px 0 #369ad5,  1px -1px 0 #369ad5, -1px 1px 0 #369ad5, 1px 1px 0 #369ad5;
+    border-top: 1px white solid;
+}
+
+#detail-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#detail-content{
+    display: flex;
+    align-items: center;
+}
+
+#detail{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
